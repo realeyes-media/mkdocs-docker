@@ -1,4 +1,4 @@
-FROM python:3.7.4-buster
+FROM python:3.7.4-slim-buster
 
 RUN pip install mkdocs && \
     pip install mkdocs-awesome-pages-plugin && \
